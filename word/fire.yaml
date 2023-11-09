@@ -1,0 +1,11 @@
+environments:
+  default:
+    APP_NAME: word
+version: "v0.0.1"
+name: word
+tasks:
+- name: start
+  type: bash
+  env: default
+  scripts:
+    - echo $APP_NAME

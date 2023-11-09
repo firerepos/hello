@@ -1,0 +1,18 @@
+environments:
+  default:
+    APP_NAME: hello
+version: "v0.0.1"
+name: hello
+tasks:
+- name: start
+  type: bash
+  env: default
+  scripts:
+    - echo $APP_NAME
+
+dependencies:
+  - "word" 
+
+replace:
+  - package: word
+    repository: ./word
