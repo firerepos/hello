@@ -1,7 +1,7 @@
 environments:
   default:
     APP_NAME: hello
-version: "v0.0.1"
+version: "v1.0.0"
 name: hello
 tasks:
 - name: start
@@ -11,8 +11,8 @@ tasks:
     - echo $APP_NAME
 
 dependencies:
-  - "word" 
+  - "world" 
 
 replace:
-  - package: word
-    repository: ./word
+  - package: world
+    repository: ./world

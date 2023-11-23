@@ -2,7 +2,7 @@ environments:
   default:
     APP_NAME: word
 version: "v0.0.1"
-name: word
+name: world
 tasks:
 - name: start
   type: bash
